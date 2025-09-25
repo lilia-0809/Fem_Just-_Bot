@@ -1,10 +1,12 @@
 import telebot
 import random
 from telebot import types
+from telebot import types
 
-TOKEN = "7827604200:AAHkU80SAMXkBoKMj2sZJ0YPuA8T9uJmVZs"
-bot = telebot.TeleBot(TOKEN)
+# Замени 'TOKEN' на токен твоего бота
+# Этот токен ты получаешь от BotFather, чтобы бот мог работать
 
+bot = telebot.TeleBot (token)
 
 # ===== Данные об участниках (MineShield IV) =====
 def _norm(s: str) -> str:
